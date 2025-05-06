@@ -68,3 +68,10 @@ curl http://localhost:<port>/grades
 ## Kubernetes Training
 
 If you found this guide helpful, check out our [Kubernetes Training course](https://kubernetestraining.io/)
+
+
+
+# Kustomize way
+```bash
+kubectl apply -f argocd/pplications/kustomize-application.yaml
+```
