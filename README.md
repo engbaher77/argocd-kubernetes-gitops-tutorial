@@ -30,6 +30,12 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 ```
 
+## Apply The Application
+
+```bash
+kubectl apply -f argocd/applications/basic-application.yaml
+```
+
 ## API Calls
 
 Here are commands that you can use to add grades to the Grade Submission API. **Windows Users should use Git Bash**.
