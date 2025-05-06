@@ -73,5 +73,10 @@ If you found this guide helpful, check out our [Kubernetes Training course](http
 
 # Kustomize way
 ```bash
-kubectl apply -f argocd/pplications/kustomize-application.yaml
+kubectl apply -f argocd/applications/kustomize-application.yaml
+```
+
+# Helm way
+```bash
+kubectl apply -f argocd/applications/helm-application.yaml
 ```
