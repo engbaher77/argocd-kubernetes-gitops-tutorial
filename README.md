@@ -36,6 +36,12 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 kubectl apply -f argocd/applications/basic-application.yaml
 ```
 
+## Delete the Application
+
+```bash
+kubectl delete application grade-submission -n argocd
+```
+
 ## API Calls
 
 Here are commands that you can use to add grades to the Grade Submission API. **Windows Users should use Git Bash**.
